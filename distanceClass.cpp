@@ -19,7 +19,6 @@ private:
     int feet;
     float inches;
 public:
-    int cm;        // public data from the class
     void setDist(int a, float b)
     {
         feet = a;
@@ -54,8 +53,6 @@ int main(void)
     d2.showDist();
 
     // Access a public data member
-    d2.cm = 8.2;
-    cout << "cm: " << d2.cm << endl;
 
     return 0;
 }
